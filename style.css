@@ -1,0 +1,45 @@
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.125rem;
+}
+
+.banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url(./img/banner.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.icons a i {
+    font-size: 18px;
+    display: inline-block;
+    border-radius: 40px;
+    box-shadow: 0 0 2px #888;
+    padding: 10px;
+    color: #212529;
+    background-color: #888;
+
+
+}
+
+.icons a i:hover {
+    background-color: #FF0062;
+    color: white;
+    transition: 1s;
+}
+
+@media screen and (max-width:576px) {
+    .banner {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)), url(./img/banner.jpg);
+        height: 120vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}

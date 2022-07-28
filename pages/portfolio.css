@@ -1,0 +1,27 @@
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.125rem;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.icons a i {
+    font-size: 18px;
+    display: inline-block;
+    border-radius: 40px;
+    box-shadow: 0 0 2px #888;
+    padding: 10px;
+    color: #212529;
+    background-color: #888;
+
+
+}
+
+.icons a i:hover {
+    background-color: #FF0062;
+    color: white;
+    transition: 1s;
+}

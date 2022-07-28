@@ -1,0 +1,8 @@
+td img {
+    height: 60px !important;
+}
+
+td a {
+    text-decoration: none;
+    color: #FF0062;
+}
