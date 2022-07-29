@@ -1,5 +1,5 @@
 body {
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 1.125rem;
 }
 
@@ -40,6 +40,10 @@ footer a {
 
 .nav-link:hover {
     border-bottom: 3px solid #FF0062;
+}
+
+.banner-text {
+    letter-spacing: 1px;
 }
 
 .banner-text:hover {
