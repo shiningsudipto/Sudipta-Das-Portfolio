@@ -1,3 +1,7 @@
+body {
+    font-family: 'Aleo';
+}
+
 td img {
     height: 60px !important;
 }
@@ -5,4 +9,9 @@ td img {
 td a {
     text-decoration: none;
     color: #FF0062;
+}
+
+span {
+    font-weight: bold;
+    margin-right: 1rem;
 }

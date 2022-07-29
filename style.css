@@ -34,6 +34,19 @@ footer a {
     transition: 1s;
 }
 
+.display-4:hover {
+    color: #FF0062;
+}
+
+.nav-link:hover {
+    border-bottom: 3px solid #FF0062;
+}
+
+.banner-text:hover {
+    background-color: #121314a8;
+}
+
+
 @media screen and (max-width:576px) {
     .banner {
         background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)), url(./img/banner.jpg);
